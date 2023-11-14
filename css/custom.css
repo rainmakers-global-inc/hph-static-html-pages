@@ -159,11 +159,12 @@ font-weight: 700;
   color: #fff;
   text-align: center;
   min-width: 213px;
-  height: 43px;
+  height: 47px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   padding: 0 15px;
+  line-height: 47px;
   font-weight: 700;
   border-radius: 50px;
   background-color: #201457;
@@ -173,11 +174,12 @@ font-weight: 700;
 }
 .glbl_btn_two{
   font-size: 22px;
+  line-height: 47px;
   font-weight: 700;
   color: #fff;
   text-align: center;
   min-width: 213px;
-  height: 43px;
+  height: 47px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -369,6 +371,14 @@ padding: 24px;
 border-radius: 8px;
 position: relative;
 cursor: pointer;
+border: 1px solid transparent;
+transition: all 0.5s ease-in-out;
+}
+.benlistbox .banitem:hover{
+  border: 1px solid #FF6900;
+}
+.benlistbox .banitem:last-child:hover{
+  background-color: #FF5722;
 }
 .benlistbox .banitem:nth-child(2) {
 margin-bottom: 35px;
@@ -1667,7 +1677,7 @@ padding-bottom: 25px;
   align-items: normal;
 }
 .max_potential{
-  margin-top: -500px !important;
+  margin-top: -473px !important;
 }
 .assesment_bnr_one .bancontextbox{
   padding-top: 80px;
@@ -1944,3 +1954,124 @@ background: #201457;
 .tabitembox a:hover{
   color: #CE0037;
 }
+/* assesment page 14.11.23 start*/
+.maxptn_btn_wrap .glbl_btn_two{
+  min-width: 310px;
+}
+.maxptn_btn_wrap{
+  margin-top: 50px;
+}
+.sports_pack {
+  position: relative;
+  padding-bottom: 300px;
+}
+.sports_pack_cnt_wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 160px;
+}
+.sports_pack_hdng h2{
+  color: #fff;
+  padding-bottom: 40px;
+}
+.sports_pack_hdng p{
+  color: #fff;
+  padding-bottom: 40px;
+}
+.sports_pack_inr_cnt_item_wrap {
+  background-color: #fff;
+  border: 1px solid #E4E4E7;
+  border-radius: 10px;
+  padding: 34px 22px;
+}
+.sports_pack_inr_cnt_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -11px;
+  margin-right: -11px;
+}
+.sports_pack_inr_cnt_item {
+  flex: 0 0 auto;
+  width: 33.33%;
+  padding: 0 11px;
+}
+.sports_pack_inr_cnt_item_wrap h4 {
+  font-size: 28px;
+  color: #18181B;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.sports_pack_inr_cnt_item_wrap p{
+  font-size: 19px;
+    line-height: 26px;
+    color: #18181B;
+    padding-bottom: 30px;
+}
+.sports_pack_inr_cnt_item_list h5{
+  color: #18181B;
+  font-size: 19px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.sports_pack_one ul li a{
+  font-size: 19px;
+  color: #87037B;
+}
+.sports_pack_one ul li{
+  position: relative;
+}
+.sports_pack_one ul li::after{
+  position: absolute;
+  content: '';
+  top: 10px;
+  left: -37px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/packge_right_icon.svg);
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+}
+.sports_pack_one ul{
+  padding: 0 40px;
+}
+.sports_pack_one ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sports_pack_one {
+  padding-bottom: 35px;
+}
+.sports_pack_two ul li{
+  font-size: 19px;
+  line-height: 26px;
+  color: #18181B;
+  position: relative;
+  padding: 10px 24px;
+}
+.sports_pack_two ul li:nth-child(odd):after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(217, 217, 217, 0.32);
+}
+.sports_pack_two ul {
+  margin-left: -22px;
+  margin-right: -22px;
+}
+.sports_pack_two h5{
+  padding-bottom: 40px;
+}
+.sports_time h5{
+  font-size: 19px;
+    color: #18181B;
+    font-weight: 700;
+    line-height: 26px;
+}
+/* assesment page 14.11.23 end*/
