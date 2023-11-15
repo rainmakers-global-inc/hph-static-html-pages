@@ -2859,11 +2859,11 @@ padding-top: 0;
   justify-content: center;
 }
 .ftr_scl_list ul li a:hover{
-  background-color: #fff;
+  background-color: #CE0037;
 }
-.ftr_scl_list ul li a:hover svg path{
+/* .ftr_scl_list ul li a:hover svg path{
   stroke: #FFA439;
-}
+} */
 .testimoinal_inr_img{
   height: 100%;
 }
