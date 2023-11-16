@@ -6,25 +6,29 @@ toggeBtn.addEventListener("click", () => {
 });
 
 
-
 // sticky_header
 // on scroll add class
+// $(document).ready(function () {
+//   $(window).scroll(function () {
+//     if ($(document).scrollTop() > (720)) {
+//       $("body").addClass("sticky_hdr");
+//     } else {
+//       $("body").removeClass("sticky_hdr");
+//     }
+//   });
+// });
 $(document).ready(function () {
+  var windowheight = window.innerHeight;
   $(window).scroll(function () {
-    if ($(document).scrollTop() > 10) {
+    if ($(document).scrollTop() > windowheight - 160) {
       $("body").addClass("sticky_hdr");
     } else {
       $("body").removeClass("sticky_hdr");
     }
   });
 });
-
-
 // remove # from url
 // Select all links with hashes
-
-
-
 
 
 // toggle class

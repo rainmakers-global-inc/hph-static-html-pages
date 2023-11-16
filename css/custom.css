@@ -110,6 +110,7 @@ body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  padding-top: 158px;
 }
 
 html {
@@ -196,7 +197,7 @@ font-weight: 700;
 .hedr {
   padding: 0px 0;
   transition: 600ms all ease-in-out;
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -305,11 +306,11 @@ font-weight: 700;
   top: 16px;
 }
 /* sticky_header */
-.sticky_hdr .hedr{
+/* .sticky_hdr .hedr{
   filter: drop-shadow(0px 15px 25px rgba(0,76,102,0.15));
   -webkit-filter: drop-shadow(0px 15px 25px rgba(0,76,102,0.15));
   padding: 15px 0;
-}
+} */
 
 
 /* start bannersect */
@@ -2484,7 +2485,7 @@ padding-top: 0;
   border-radius: 10px;
   background: #201457;
   padding: 70px 80px;
-  margin-top: 120px;
+  margin-top: 180px;
   position: relative;
 }
 .ourteamsect {
@@ -2909,3 +2910,19 @@ padding-top: 0;
   color: #201457;
 }
 /* end 15.11.23 */
+/* start 16.11.23 */
+.locationban .bannersectcont{
+  align-items: center;
+}
+.abouttabs ul li:nth-child(even){
+  transform: translateY(70px);
+}
+.nav_menu .menu_active{
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.sticky_hdr .nav_menu .menu_active{
+opacity: 1;
+}
+/* end 16.11.23 */
+
