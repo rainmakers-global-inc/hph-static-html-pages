@@ -110,7 +110,7 @@ body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  padding-top: 158px;
+  padding-top: 118px;
 }
 
 html {
@@ -231,9 +231,10 @@ font-weight: 700;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   height: 100%;
-  gap: 12px 0px;
+  gap: 19px 0px;
+  padding-top: 10px;
 }
 .hedr .nav_menu .nav_link p {
   font-size: 14px;
@@ -242,15 +243,16 @@ font-weight: 700;
   color: #fff;
   text-align: center;
   max-width: 90px;
+  line-height: 14px;
 }
 .menuicon {
-      width: 40px;
+      width: 24px;
     text-align: center;
-    height: 40px;
+    height: 24px;
 }
 .hedr .nav_menu .nav_link .menuicon svg {
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
 }
 
 /* .hedr .nav_menu .nav_link::after{
@@ -275,7 +277,7 @@ font-weight: 700;
   background: url(../images/menubg.svg);
   background-size: 100% 100%;
   min-width: 123px;
-  height: 159px;
+  height: 118px;
 }
 .hedr .nav_menu .nav_item:hover {
   background: url(../images/menubghover.svg);
@@ -637,7 +639,7 @@ border-radius: 100px;
 .ourProcessect {
 position: relative;
 width: 100%;
-padding: 150px 0px 142px;
+padding: 120px 0px 142px;
 }
 .ourProcesheading {
 text-align: center;
@@ -709,7 +711,7 @@ margin-top: 100px;
 position: absolute;
 left: 0;
 width: 100%;
-bottom: -70%;
+bottom: -60%;
 }
 .fittinGgsect .glbl_btn_two {
   height: 66px;
@@ -1073,9 +1075,9 @@ background-size: cover;
 .ftr_btn_wrap .ftr_btn {
   font-size: 16px;
   font-weight: 700;
-  color: #201457;
+  color: #fff;
   text-align: center;
-  background: #FFA439;
+  background: #FF6900;
   min-width: 160px;
   border-radius: 50px;
   height: 48px;
@@ -1085,8 +1087,8 @@ background-size: cover;
   padding: 0 15px;
 }
 .ftr_btn_wrap .ftr_btn:hover{
-  background-color: #fff;
-  color: #FFA439;
+  background-color: #FF8A38;
+  color: #fff;
 }
 .ftr_btn_wrap{
   margin-top: -33px;
@@ -1144,6 +1146,8 @@ background-size: cover;
 .package_assement{
   position: relative;
   padding-bottom: 80px;
+  margin-top: -290px;
+    z-index: 2;
 }
 /* .package_assement::after{
   content: '';
@@ -1174,7 +1178,8 @@ background-size: cover;
 .package_assement .container{
   position: relative;
   z-index: 3;
-  top: -100px;
+  top: 0;
+  padding-top: 140px;
 }
 .package_assement::after{
   position: absolute;
@@ -1196,7 +1201,7 @@ background-size: cover;
 }
 .packg_asstmnt_btn {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 45px;
 }
 .running_package_wrap {
   margin-top: 55px;
@@ -1320,7 +1325,7 @@ background-color: #CE0037;
   margin-right: -291px;
 }
 .expect_visit {
-  padding-bottom: 50px;
+  padding: 140px 0 50px;
 }
 .expect_visit h2{
   padding-bottom: 35px;
@@ -1480,7 +1485,7 @@ position: relative;
   align-items: flex-end;
 }
 .motivation_bnr_wrap p{
-  padding-top: 60px;
+  padding-top: 100px;
 }
 .motivation_bnr_btn .glbl_btn_one{
   min-width: 235px;
@@ -1668,7 +1673,7 @@ padding-bottom: 25px;
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
     margin-right: -403px;
-    height: 100%;
+    height: 730px;
 }
 .asses_bnr_one_img img{
   width: 100%;
@@ -2459,7 +2464,7 @@ padding-top: 0;
   top: 21px;
 }
 .ourteamsect .nav-pills .nav-link .aboutbtncont h6 {
-  color: #FF6900;
+  color: #201457;
   font-size: 23px;
   font-style: normal;
   font-weight: 700;
@@ -2860,7 +2865,7 @@ padding-top: 0;
   justify-content: center;
 }
 .ftr_scl_list ul li a:hover{
-  background-color: #CE0037;
+  background-color: #FF8A38;
 }
 /* .ftr_scl_list ul li a:hover svg path{
   stroke: #FFA439;
@@ -2872,10 +2877,11 @@ padding-top: 0;
   height: 100%;
 }
 .assesment_bnr_one .asses_bnr_one_img{
-  height: 100%;
+  height: 735px;
 }
 .assesment_bnr_one .asses_bnr_one_img img{
   height: 100%;
+  object-fit: cover;
 }
 .assesment_bnr_one .btnflex{
   margin-top: 30px;
@@ -2926,3 +2932,52 @@ opacity: 1;
 }
 /* end 16.11.23 */
 
+/* start 17.11.23 */
+.packge_new_shape{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.packge_new_shape img{
+  width: 100%;
+}
+.motivation_cnt_img_shape{
+  position: absolute;
+    right: 0;
+    top: 54%;
+}
+.motivation_cnt_img_shape img{
+  width: auto;
+}
+.strengimg{
+  margin-left: -40px;
+}
+.workflexbox .txt_line h2{
+  position: relative;
+}
+.workflexbox .txt_line h2::after{
+  position: absolute;
+  content: '';
+  right: 0;
+  bottom: -3px;
+background-image: url(../images/under_line.svg);
+  height: 12px;
+  width: 72%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.performance_lab_bg .asses_bnr_one_img{
+  height: 616px;
+  margin-right: -243px;
+}
+.performance_lab_how{
+  margin-top: -235px !important;
+}
+.performance_lab_how .container{
+  margin-top: 60px;
+}
+.performance_lab_bg .bancontextbox{
+  padding-top: 60px;
+}
+/* end 17.11.23 */
