@@ -1,4 +1,14 @@
+@media (min-width: 1600px){
+
+.fittinimg{
+  bottom: -73%;
+}
+}
+
 @media (min-width: 1400px){
+  .fittinGgsect .workflexbox .proitem{
+    margin-left: -70px;
+  }
   .motivation_bnr_wrap{
     margin-top: 159px;
   }
@@ -14,13 +24,19 @@
   .custom_hdr_container{
     max-width: 1600px;
   }
+
 }
 
 @media (max-width:1499px) {
 }
 
 @media (max-width: 1199px) {
-
+  .hedr .nav_menu .nav_item{
+    min-width: 100px;
+  }
+  .how_worksect .container {
+    margin-top: -80px;
+}
 }
 
 @media (max-width: 991px) {

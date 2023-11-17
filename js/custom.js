@@ -29,8 +29,6 @@ $(document).ready(function () {
 });
 // remove # from url
 // Select all links with hashes
-
-
 // toggle class
 $(document).ready(function () {
   $("#nav_togge_btn").click(function () {
