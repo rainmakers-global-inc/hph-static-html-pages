@@ -29,60 +29,421 @@
 
 @media (max-width:1499px) {
 }
+@media (max-width:1329px) {
+  .workflexbox {
+    align-items: self-start;
+  }
+  .workflexbox .proitem {
+    flex: 0 0 45%;
+  }
+  .clipimgclass {
+    width: 67%;
+  }
+  .measurebox {
+    margin-top: 160px;
+    padding-left: 60px;
+  }
+  .measurebox p {
+    width: 100%;
+  }
+  body {
+    font-size: 20px;
+  }
+  .btnflex {
+    margin-top: 20px;
+  }
+  .glbl_btn_two, .glbl_btn_one {
+    font-size: 18px;
+    min-width: 160px;
+  }
+  .measurebox.undbox p, .measurebox.undbox h2 {
+    width: 100%;
+  }
+  .measurebox.undbox ul {
+    width: 95%;
+  }
+  .applytextbox {
+    margin-top: 140px;
+    padding-left: 170px;
+  }
+
+  .applycontsect {
+    margin-top: 100px;
+    width: 100%;
+    margin-left: auto;
+  }
+  .workflexbox .txt_line h2 {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .strengimg {
+    margin-left: 0px;
+  }
+  .revolution .revolution_wrap:nth-child(even) .revolution_item_wrap .revolution_item_cnt{
+    width: 370px;
+  }
+  .how_worksect .tp_crcl{
+    margin-left: 85px;
+  }
+  .proven_txt p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .location{
+    padding-bottom: 90px;
+  }
+  
+  .get_btn{
+    font-size: 18px;
+  }
+  .assesment_bnr_one h3 {
+    padding-bottom: 15px;
+  }
+  .how_worksect.mrtopstyl{
+    padding-top: 235px;
+  }
+  .how_worksect.mrtopstyl .chartcontext p{
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .sports_pack_inr_cnt_item_wrap h4{
+    font-size: 22px;
+  }
+  .sports_pack_one ul li a{
+    font-size: 16px;
+  }
+  .sports_pack_inr_cnt_item_list h5{
+    font-size: 16px;
+  }
+  .sports_pack_two h5{
+    padding-bottom: 30px;
+  }
+  .sports_pack_two ul li{
+    font-size: 16px;
+  }
+  .sports_time h6{
+    font-size: 16px;
+  }
+  .sports_pack_inr_cnt_item_wrap p{
+    font-size: 16px;
+  }
+  .sports_pack_inr_cnt_item_wrap .price_mnth p{
+    font-size: 35px;
+  }
+  .sports_pack{
+    padding-bottom: 30px;
+  }
+  .human_power_cnt_item h4{
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .human_power_cnt_item p{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .human_power_cnt_item ul li{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .human_power {
+    padding: 80px 0 125px 0;
+  }
+  .athletic_acordian .accordion-item .accordion-header button{
+    font-size: 40px;
+  }
+  .accordion-item .accordion-body .cnct_wrp h6{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .accordion-item .accordion-body .cnct_wrp p{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .accordion-item .accordion-body .cnct_wrp .btn_wrp .rndd_btn {
+    min-width: 100%;
+    height: 50px;
+    font-size: 18px;
+  }
+  .true_hlt_sec .sec_cnct_wrp .cnct_innr{
+    max-width: 355px;
+  }
+  .accordion-item .accordion-body .cnct_wrp h6:not(:first-of-type) {
+    margin-top: 15px;
+  }
+  .innerbannersect.motivationsect p{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .motivationsect .bannersectcont{
+    padding-top: 0;
+  }
+
+  .mrtopstyl .workflexbox {
+    align-items: flex-end;
+  }
+  .abouttabs .nav.nav-pills {
+    gap: 20px;
+  }
+  .ourteamsect .nav-pills .nav-link .aboutbtncont h5{
+    font-size: 16px;
+    margin-left: auto;
+    text-align: right;
+  
+  }
+  .ourteamsect .nav-pills .nav-link .aboutbtncont h3{
+    font-size: 20px;
+  }
+  .abouttabs .nav-item .meetbox h2{
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .tabimglist{
+    gap: 20px;
+  }
+  .ourteamsect{
+    padding: 30px 0 100px;
+  }
+  .orengborderbox .orengborderboxcont p{
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .orengborderbox .orengborderboxcont h3{
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .abouttabody p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .ourteamsect .ourProcesheading{
+    margin-bottom: 60px;
+  }
+  .ourteamsect .nav-pills .nav-link .aboutbtncont h6{
+    font-size: 18px;
+  }
+  .aboutbann .ourProcesheading h2{
+    font-size: 60px;
+  }
+  .aboutbann{
+    padding: 80px 0px 150px;
+  }
+  .perfr_pack_item_cnt ul li{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .weekend_btm_cnt_item ul li{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .perfr_pack_item_cnt h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  .weekend_btm_cnt_item h3{
+    font-size: 20px;
+  }
+  .weekend_btm_cnt_item ul li{
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .mnnesotacontbox{
+    gap: 75px 25px;
+  }
+  .mnnesitem .mnnesitemcont .mnnestext h4{
+    font-size: 30px;
+  }
+  .testimoinal_inr_img {
+    margin-right: -395px;
+}
+.packages_bg {
+  padding-bottom: 170px;
+}
+.hedr .nav_menu .nav_item{
+  height: 110px;
+}
+.unlocksect{
+  margin-top: -36px;
+}
+.performance_lab_bg{
+  margin-top: -35px;
+}
+.networbanner{
+  margin-top: -20px;
+}
+.networktabsect .nav-pills .nav-link{
+  gap: 0;
+  font-size: 24px;
+  justify-content: space-between;
+  width: 100%;
+}
+.bannersect{
+  margin-top: -10px;
+}
+.innerbannersect{
+  margin-top: -10px;
+}
+.motivation_bnr_one{
+  margin-top: -10px;
+}
+}
+
 
 @media (max-width: 1199px) {
+  /* start 20.11.23 */
+  .clipimgclass {
+    width: 70%;
+    left: -11px;
+    top: -30px;
+  }
+  .measurebox {
+    margin-top: 35px;
+    padding-left: 40px;
+  }
+  .measurebox.undbox ul {
+    width: 88%;
+  }
+  .applytextbox {
+    margin-top: 120px;
+    padding-left: 170px;
+  }
+  .proven_toll {
+    padding: 130px 0 101px;
+}
+.bannersectcont{
+  padding-top: 100px;
+}
+/* .applycontsect{
+  margin-top: 40px;
+} */
+.benlistbox .banitem h3{
+  font-size: 16px;
+}
+.benlistbox{
+  margin-top: 75px;
+}
+.ftr_right_btm_img h4{
+  font-size: 16px;
+  line-height: 26px;
+}
+.ftr_right_wrap {
+  margin-left: 30px;
+}
+.motivation_bnr_wrap .row {
+  align-items: center;
+}
+.motivation_bnr_wrap{
+  margin-top: 50px;
+}
+.perfr_pack_item_cnt{
+  padding: 60px 34px 60px 34px;
+}
+
+.motivation_cnt_img_shape{
+  top: 65%;
+}
+.performance_package{
+  padding-bottom: 120px;
+}
+  /* end 20.11.23 */
   .hedr .nav_menu .nav_item{
-    min-width: 100px;
+    min-width: 110px;
   }
   .how_worksect .container {
     margin-top: -80px;
 }
+.bancontextbox h1 {
+  margin-bottom: 20px;
+}
+h1{
+  font-size: 50px;
+  line-height: 60px;
+}
+h3{
+  font-size: 30px;
+}
+h2{
+  font-size: 40px;
+  line-height: 60px;
+}
+.max_potential {
+  margin-top: -212px !important;
+}
+.maxptn_btn_wrap .glbl_btn_two {
+  min-width: auto;
+}
+.glbl_btn_one, .glbl_btn_two{
+  font-size: 18px;
+}
+.revolution .revolution_wrap:nth-child(even){
+  margin-top: 80px;
+}
+.motivationsect .apssvg {
+  top: -231px;
+}
+.motivationsect {
+  padding: 0px 0px 120px;
+}
+.motivicons{
+  width: 90px;
+  height: 90px;
+  margin-top: -85px;
+}
+.motivicons img{
+  max-width: 45px;
+}
+.motivationitembox h5{
+  font-size: 18px;
+  line-height: 28px;
+  height: auto;
+  padding-bottom: 20px;
+}
+.motivationitembox p{
+  font-size: 16px;
+  line-height: 28px;
+}
+.motivationitembox a{
+  font-size: 16px;
+}
+.motivationitembox .arrowicon{
+    bottom: 47px;
+    width: 22px;
+}
+.interestedformlist li a{
+  padding: 15px 20px;
+  font-size: 16px;
+  min-width: 136px;
+}
+.locationform{
+  padding: 60px 40px;
+  margin-top: -40px;
+}
+.locationform h3{
+  font-size: 40px;
+}
+.formlocation .btnflex .glbl_btn_two + .glbl_btn_two {
+  margin-left: 10px;
+  min-width: auto;
+  line-height: 26px;
+}
+.mnnesitem .mnnesitemcont .mnnestext h4 {
+  font-size: 25px;
+}
+.mnnesitem .mnnesitemcont .mnnestext p{
+  font-size: 18px;
+}
+.locationban .asses_bnr_one_img {
+  height: auto;
+}
+.locationban .bannersectcont{
+  padding-top: 0;
+}
+.how_worksect .tp_crcl {
+  margin-left: 40px;
+}
 }
 
 @media (max-width: 991px) {
- 
 
-  .prtfolio-scnd li {
-    width: 25%;
-    flex: 0 0 auto;
-    /* padding-inline: 3px; */
-    padding-left: 3px;
-    padding-right: 3px;
-  }
-
-  /* prtflio-sctn -------------*/
-
-
-  /* footer----- */
-  .ftr-card ul li:not(:first-child) {
-    margin-left: 25px;
-  }
-
-  .ftr-card figure {
-    max-width: 100px;
-
-  }
-
-  .ftr-btm-card {
-    margin-top: 35px;
-    padding-top: 35px;
-  }
-
-  .footer {
-    padding: 50px 0 35px;
-  }
-
-  /* footer----- */
-  /* ==== */
-
-
-/* ---banner start--- */
-.banner p+p {
-  margin-top: 15px;
-}
-.banner h3 {
-  margin-bottom: 15px;
-}
 /* ---banner end--- */
 
 /* ---client slider----- */
@@ -207,210 +568,7 @@
     overflow: hidden;
   } */
 
-  /* service_sec */
-
-  .service_lst > li .srvc_itm{
-    max-width: 100%;
-    padding: 10px 0;
-    background-color: #fff;
-    position: relative;
-    z-index: 1;
-    text-align: center;
-  }
-  .service_lst > li:nth-child(odd) .srvc_itm{
-    text-align: center;
-  }
-  .service_lst > li{
-    margin-bottom: 90px;
-  }
-  .service_lst > li::before{
-    top: -70px;
-    transform: translate(-50% , 0);
-    height: 50px;
-    width: 50px;
-  }
-  .service_lst > li::after{
-    bottom: -40px;
-    top: -40px ;
-  }
-  .service_lst > li:first-child:after{
-    top: -40px;
-  }
-
-  /* ==== */
   
-  /* **about-us-sec */
-  h2 {
-    font-size: 70px;
-    line-height: 70px;
-  }
-
-  h4 {
-    font-size: 40px;
-  }
-
-  body {
-    font-size: 15px;
-    line-height: 25px;
-  }
-
-  .abt-us-sctn .vision-card {
-    max-width: 270px;
-  }
-
-  .abt-us-sctn .mission {
-    max-width: 270px;
-    margin-top: 50px;
-    margin-right: 0px;
-  }
-
-  .abt-us-sctn {
-    padding: 70px 0 100px;
-  }
-
-  .abt-us-card {
-    margin-bottom: 50px;
-  }
-
-  .abt-us-sctn::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(255, 255, 255, 0.4);
-  }
-
-  /* **about-us-sec */
-
-  /* portfolio-sctn---------------- */
-  .site_btn {
-    min-width: 80px;
-    height: 32px;
-    font-size: 12px;
-  }
-
-  .prtfolio-frst-list {
-    padding-top: 40px;
-    justify-content: center;
-  }
-
-  .prtfolio-frst-list li {
-    width: 50%;
-    /* padding-inline: 3px; */
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-bottom: 9px;
-  }
-
-  .prtfolio-scnd li {
-    width: 50%;
-    flex: 0 0 auto;
-    /* padding-inline: 3px; */
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-bottom: 9px;
-  }
-
-  /* portfolio-sctn---------------- */
-
-  /* form_sec---------------- */
-  .form_wrap {
-    margin: 40px auto 0;
-  }
-
-  .form_sec {
-    padding: 70px 0 100px;
-  }
-
-  .input_wrap input {
-    padding: 20px 45px 20px 20px;
-    height: 50px;
-    font-size: 16px;
-    line-height: 20px;
-  }
-
-  .txt_area_wrp textarea {
-    height: 100px;
-  }
-
-  .txt_area_wrp {
-    margin-bottom: 20px;
-  }
-
-  .input_icon {
-    right: 20px;
-    top: 15px;
-    line-height: 1;
-  }
-
-  /* form_sec---------------- */
-
-  /* footer--------------------- */
-  .ftr-card {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .ftr-card ul {
-    display: flex;
-    align-items: center;
-    /* flex-direction: column; */
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .ftr-card ul li:not(:first-child) {
-    margin-left: 0;
-  }
-
-  .ftr-card figure {
-    max-width: 100px;
-    margin: 0 auto 25px;
-  }
-
-  .ftr-card ul li {
-    margin: 0;
-    padding: 0 15px 15px;
-  }
-  .ftr-btm-card {
-    margin-top: 15px;
-    padding-top: 25px;
-}
-  /* footer------------------- */
-
-  /* ==== */
-  /* ---banner start--------- */
-
-  .banner {
-    background-size: cover;
-    padding:150px 0;
-
-}
-.banner h1{
-  margin-bottom: 20px;
-}
-
-/* .mouse {
-  bottom: -98px;
-}
-.mouse span {
-  bottom: 47px;
-  left: -47%;
-} */
-/* ---banner end--------- */
-
-/*----- why choose us---- */
-.why_choose_sec h5 {
-  font-size: 50px;
-}
-.sec_ttle h2{
-  margin-bottom: 20px;
-
-}
-/*----- why choose us end---- */
 }
 
 @media (max-width:575px) {

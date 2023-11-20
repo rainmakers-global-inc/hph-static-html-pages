@@ -686,7 +686,7 @@ color: #292D32;
 .boxicon::after {
 content: "";
 position: absolute;
-left: 100px;
+left: 110px;
 height: 2px;
 width: 16vw;
 background: #FF6900;
@@ -1354,6 +1354,7 @@ background-color: #CE0037;
 .expect_img_wrap {
   background: linear-gradient(180deg, #FFF 54.43%, #F5F5F5 100%);
   border-radius: 5px;
+  height: 100%;
 }
 .expect_img_wrap p{
   font-size: 18px;
@@ -1443,6 +1444,7 @@ background-color: #CE0037;
   left: 50%;
   transform: translateX(-50%);
   margin-left: 100px;
+  z-index: 2;
 }
 .mrtopstyl .container{
   margin-top: 0;
@@ -1766,7 +1768,7 @@ background: #201457;
   font-weight: 400;
   line-height: 37px;
   width: 90%;
-  height: 280px;
+  height: auto;
 }
 .motivationitembox a {
   color: #FFF;
@@ -1780,24 +1782,10 @@ background: #201457;
 .motivationitembox {
   border-radius: 8px;
   padding: 40px;
-  width: 29.3%;
   position: relative;
   margin: 0px 25px;
-  margin-bottom: 120px;
 }
 
-.motivationitembox:nth-child(odd) {
-  background: #87037B;
-}
-.motivationitembox:nth-child(even) {
-  background: #201457;
-}
-.motivationitembox .arrowicon {
-  position: absolute;
-  right: 40px;
-  bottom: 40px;
-  width: 36px;
-}
 .innerbannersect.motivationsect {
   padding-bottom: 100px;
 }
@@ -1856,7 +1844,7 @@ background: #201457;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0px 20px;
+  width: 100%;
 }
 .networktabsect .nav-pills .nav-link.active {
   background: #FF6900;
@@ -1873,11 +1861,12 @@ background: #201457;
 .networktabhed {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0px 15px;
+  /* justify-content: center; */
+  /* gap: 0px 15px; */
   padding: 40px 0px;
   border-bottom: 1px solid #C4C4C4;
   margin-bottom: 108px;
+  flex-wrap: wrap;
 }
 .networkmaintabox {
   border-radius: 10px;
@@ -1888,11 +1877,13 @@ background: #201457;
 .networkbodyflx {
   display: flex;
   flex-wrap: wrap;
-  gap: 0px 40px;
+  /* gap: 0px 40px; */
 }
 .tabitembox {
   width: 100%;
-  width: 31%;
+  width: 33.33%;
+  flex: 0 0 auto;
+  padding: 0 20px;
 }
 .tabitemboxcont {
   padding: 25px;
@@ -2616,9 +2607,9 @@ padding-top: 0;
   position: relative;
   z-index: 1;
 }
-.innerbannersect.assesment_bnr_one.locationban .asses_bnr_one_img {
+/* .innerbannersect.assesment_bnr_one.locationban .asses_bnr_one_img {
   margin-right: -100px;
-}
+} */
 .innerbannersect.assesment_bnr_one.locationban {
   background: url(../images/loctbg.png) no-repeat;
   background-size: 100% 78%;
@@ -2635,6 +2626,7 @@ padding-top: 0;
 }
 .locationform .loccontlist li svg {
   margin-right: 16px;
+  min-width: 28px;
 }
 .locationform .loccontlist li + li {
   margin-top: 70px;
@@ -2658,9 +2650,11 @@ padding-top: 0;
 }
 .contentloct {
   flex: 0 0 42%;
+  max-width: 42%;
 }
 .formlocation {
   flex: 0 0 58%;
+  max-width: 58%;
   margin-top: 40px;
   padding-left: 60px;
 }
@@ -2668,8 +2662,10 @@ padding-top: 0;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 16px;
+  /* gap: 16px; */
   margin-bottom: 60px;
+  margin-left: -16px;
+  margin-right: -16px;
 }
 
 .interestedformlist li a {
@@ -2811,7 +2807,7 @@ padding-top: 0;
 .mnnesitem.dplflx .icongrupimg {
   position: absolute;
   left: 0px;
-  top: auto;
+  top: 0;
   width: 85%;
   bottom: 0;
 }
@@ -2981,3 +2977,43 @@ background-image: url(../images/under_line.svg);
   padding-top: 60px;
 }
 /* end 17.11.23 */
+/* start 20.11.23 */
+.motivation_list_item {
+  flex: 0 0 auto;
+  width: 33.33%;
+}
+.motivation_list_item:nth-child(odd) .motivationitembox {
+  background: #87037B;
+}
+.motivation_list_item:nth-child(even) .motivationitembox {
+  background-color: #201457;
+}
+.motivation_list_item:nth-child(n + 4) .motivationitembox{
+margin-top: 120px;
+}
+.motivationsect{
+  padding: 60px 0px 200px;
+}
+.read_more_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.btnflex {
+  display: flex;
+}
+.interestedformlist li {
+  flex: 0 0 auto;
+  width: 33.33%;
+  padding: 0 16px;
+}
+.interestedformlist li:nth-child(n + 4){
+  margin-top: 16px;
+}
+.networktabhed li {
+  flex: 0 0 auto;
+  width: 25%;
+  padding: 0 10px;
+}
+/* end 20.11.23 */
