@@ -1405,7 +1405,7 @@ background-color: #CE0037;
   padding-bottom: 30px;
 }
 .testimoinal_inr_img{
-  margin-right: -375px;
+  margin-right: -426px;
 }
 .testimonial_btn_wrap .glbl_btn_one{
   min-width: 344px;
@@ -3057,4 +3057,9 @@ margin-top: 120px;
 .maxptn_btn_wrap a:first-child{
   margin-right: 10px;
 }
+.proitem h2{
+  margin-bottom: 20px;
+}
 /* end 23.11.23 */
+
+
