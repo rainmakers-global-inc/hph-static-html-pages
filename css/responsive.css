@@ -24,7 +24,9 @@
   .custom_hdr_container{
     max-width: 1600px;
   }
-
+  /* .weekend{
+    padding-bottom: 450px;
+  } */
 }
 
 @media (max-width:1499px) {
@@ -226,6 +228,7 @@
   }
   .aboutbann{
     padding: 80px 0px 150px;
+    margin-top: -10px;
   }
   .perfr_pack_item_cnt ul li{
     font-size: 20px;
@@ -284,6 +287,9 @@
 }
 .motivation_bnr_one{
   margin-top: -10px;
+}
+.about_power_sec{
+  margin-top: 0;
 }
 }
 
@@ -440,6 +446,35 @@ h2{
 .how_worksect .tp_crcl {
   margin-left: 40px;
 }
+.tabitembox h5{
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+.tabitembox p{
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.tabitembox a{
+  font-size: 16px;
+}
+.tabitembox .svgorengarrow {
+  right: 35px;
+  bottom: 31px;
+  max-width: 25px;
+}
+.networktabsect .nav-pills .nav-link{
+  font-size: 15px;
+  height: 55px;
+}
+.networktabsect .nav-pills .nav-link svg{
+  max-width: 30px;
+}
+.networbanner .bannersectcont {
+  padding-top: 0;
+}
+
 }
 
 @media (max-width: 991px) {
@@ -471,6 +506,10 @@ h2{
 /* 31-10-23 */
 .service_lst > li .srvc_itm h4{
   font-size: 26px;
+}
+.networktabsect .nav-pills .nav-link{
+  font-size: 16px;
+  height: 54px;
 }
 
 }

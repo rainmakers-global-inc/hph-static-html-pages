@@ -627,7 +627,7 @@ margin-bottom: 40px;
 .unlocksect .workflexbox li p {
 width: 92%;
 }
-.unlocksect .glbl_btn_two {
+.unlocksect .glbl_btn_one {
 height: 66px;
 font-size: 20px;
 min-width: 258px;
@@ -1120,6 +1120,7 @@ background-size: cover;
 .packages_bg .banimgclass::before{
   right: -98vw;
   left: unset;
+  height: 700px;
 }
 .packages_bg h1{
   color: #201457;
@@ -1146,7 +1147,7 @@ background-size: cover;
 .package_assement{
   position: relative;
   padding-bottom: 80px;
-  margin-top: -290px;
+  margin-top: -265px;
     z-index: 2;
 }
 /* .package_assement::after{
@@ -1594,7 +1595,7 @@ padding-bottom: 25px;
 }
 .weekend{
   position: relative;
-  padding-bottom: 300px;
+  padding-bottom: 350px;
   /* background-image: url(../images/weekend_package.svg);
   background-repeat: no-repeat;
   background-size: cover; */
@@ -1618,12 +1619,13 @@ padding-bottom: 25px;
 }
 .weeked_top_cnt_item h2{
   color: #fff;
+  max-width: 750px;
 }
 .weekend_btm_cnt_wrap {
   border-radius: 20px;
   background-color: #F5F5F5;
   box-shadow: 0px 32px 46px 0px rgba(0, 0, 0, 0.25);
-  padding: 60px;
+  padding: 50px 60px;
 }
 .weekend_btm_cnt_item h3{
   color: #201457;
@@ -1688,7 +1690,7 @@ padding-bottom: 25px;
   align-items: unset;
 }
 .max_potential{
-  margin-top: -260px !important;
+  margin-top: -220px !important;
 }
 .assesment_bnr_one .bancontextbox{
   padding-top: 10px;
@@ -2871,6 +2873,7 @@ padding-top: 0;
 }
 .testimoinal_inr_img img{
   height: 100%;
+  object-fit: cover;
 }
 .assesment_bnr_one .asses_bnr_one_img{
   height: 735px;
@@ -2964,11 +2967,11 @@ background-image: url(../images/under_line.svg);
   background-size: contain;
 }
 .performance_lab_bg .asses_bnr_one_img{
-  height: 616px;
+  height: 706px;
   margin-right: -243px;
 }
 .performance_lab_how{
-  margin-top: -235px !important;
+  margin-top: -280px !important;
 }
 .performance_lab_how .container{
   margin-top: 60px;
@@ -2998,7 +3001,7 @@ margin-top: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .btnflex {
   display: flex;
@@ -3017,3 +3020,41 @@ margin-top: 120px;
   padding: 0 10px;
 }
 /* end 20.11.23 */
+/* start 23.11.23 */
+.workflexbox .txt_line h2{
+  margin-bottom: 40px;
+}
+.btnflex a:first-child{
+  margin-right: 18px;
+}
+.undbox .btnflex{
+  justify-content: flex-end;
+}
+.how_worksec_new_shape{
+  width: 100%;
+}
+.how_worksec_new_shape img{
+  width: 100%;
+}
+.assesment_bnr_one .btnflex .glbl_btn_two{
+  color: #201457;
+}
+.assesment_bnr_one .btnflex .glbl_btn_two:hover{
+  color: #fff;
+}
+.performance_lab_bg .btnflex .glbl_btn_two{
+  color: #FF6900;
+}
+.fittinGgsect .fitting_btn{
+  justify-content: flex-end;
+}
+.unlocksect .testimoinal_inr_img{
+  height: 700px;
+}
+.weekend_top_cnt_wrap .weeked_top_cnt_item:last-child{
+  margin-top: -60px;
+}
+.maxptn_btn_wrap a:first-child{
+  margin-right: 10px;
+}
+/* end 23.11.23 */
