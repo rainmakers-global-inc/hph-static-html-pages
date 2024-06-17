@@ -1,0 +1,229 @@
+.blog_bnr .motivationg_bg_one > img{
+    height: 850px;
+}
+.blog_bnr .motivation_bnr_wrap{
+    margin-top: 0;
+    position: absolute;
+    top: 120px;
+}
+.blog_bnr .motivation_bnr_wrap p {
+    padding-top: 30px;
+    color: #fff;
+    max-width: 490px;
+}
+.blog_bnr .motivation_bnr_btn .glbl_btn_one{
+    min-width: 210px;
+}
+
+.blog_bnr_cnt_wrap h1{
+    text-transform: uppercase;
+}
+.frm_blog_hdng {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.frm_blog{
+    padding: 160px 0;
+}
+.frm_blog_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -24px;
+    margin-right: -24px;
+}
+.frm_blog_item_inr {
+    flex: 0 0 auto;
+    width: 33.33%;
+    padding: 0 24px;
+}
+.frm_blog_item_inr_img img {
+    border-radius: 30px;
+    width: 100%;
+}
+.frm_blog_item_inr_img {
+    margin-bottom: 24px;
+}
+.frm_blog_inr_cnt h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #201457;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.frm_blog_inr_cnt p {
+    font-size: 22px;
+    color: #201457;
+    line-height: 32px;
+}
+.frm_blog_item_inr:nth-child(n + 4){
+    margin-top: 80px;
+}
+.pagination_wrap .pagination{
+    justify-content: center;
+}
+.pagination_wrap {
+    margin-top: 80px;
+    text-align: center;
+}
+.ftr_top_shape{
+    position: relative;
+    z-index: -1;
+    margin-top: 120px;
+}
+.ftr_top_shape img{
+    max-width: 1410px;
+    position: absolute;
+    bottom: -143px;
+}
+/* post page start*/
+.post_bg_wrap img {
+    width: 100%;
+}
+.post_bg_wrap{
+    position: relative;
+    z-index: 2;
+}
+.post_bg_inr_cnt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 120px;
+}
+.post_bnr_btn .glbl_btn_one{
+    min-width: 270px;
+}
+.post_bnr_btn {
+    margin-bottom: 40px;
+}
+.post_bnr_hdng h1{
+    text-transform: uppercase;
+}
+.bnr_cnt_img{
+    position: relative;
+    z-index: -1;
+    margin-top: -100px;
+}
+
+.social_post_list_wrap ul {
+    display: flex;
+    align-items: center;
+}
+.social_post_list_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 36.9px 25.67px;
+    background-color: #F5F5F5;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+.social_post_list_wrap ul li:not(:last-child){
+    margin-right: 20px;
+}
+.social_post_list_wrap h5{
+    color: #FF6900;
+    font-size: 32px;
+    margin-right: 60px;
+}
+.social_post_icon_wrap{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -70px;
+}
+.psot_bnr{
+    margin-bottom: 200px;
+}
+
+.post_inr_cnt_hdng h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.post_inr_cnt_sec {
+    margin-bottom: 80px;
+
+}
+.blog_post_one{
+    float: left;
+    margin-right: 30px;
+    max-width: 620px;
+}
+.blog_post_two{
+    float: right;
+    margin-left: 40px;
+    max-width: 560px;
+}
+.blog_post_one figcaption{
+    font-size: 30px;
+    color: #FF6900;
+    margin: 30px 0;
+    line-height: 40px;
+    font-style: italic;
+    text-align: center;
+}
+.blog_post_two figcaption{
+    font-size: 30px;
+    color: #FF6900;
+    margin: 30px 0;
+    line-height: 40px;
+    font-style: italic;
+    text-align: center;
+}
+.post_inr_cnt_sec p{
+    margin-bottom: 30px;
+}
+.post_btn_wrap_new{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 70px;
+}
+.post_btn_wrap_new a{
+    font-size: 30px;
+    font-weight: 700;
+    color: #201457;
+}
+.post_btn_wrap_new a:first-child span{
+    margin-left: 30px
+}
+.post_btn_wrap_new a:last-child span{
+    margin-right: 30px;
+}
+.subscribe_frm_wrap_inr {
+    background-color: #201457;
+    padding: 140px;
+    border-radius: 7px;
+}
+.subscribe_frm_wrap_inr h2{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+.subscribe_frm_wrap {
+    margin-bottom: 230px;
+}
+.post_blog_mobile_cnt_img img{
+    width: 100%;
+    display: none;
+}
+.post_blog_post_date p {
+    font-size: 12px;
+    color: #292D32;
+    text-align: center;
+}
+.post_blog_post_date {
+    padding: 30px 0;
+    display: none;
+}
+.social_post_list_wrap_mob{
+    display: none;
+}
+
+
+
+/* post page end*/
