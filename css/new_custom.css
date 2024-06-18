@@ -45,16 +45,16 @@
     margin-bottom: 24px;
 }
 .frm_blog_inr_cnt h4 {
-    font-size: 24px;
+    font-size: 16px;
     text-transform: uppercase;
     color: #201457;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 .frm_blog_inr_cnt p {
-    font-size: 22px;
+    font-size: 16px;
     color: #201457;
-    line-height: 32px;
+    line-height: 26px;
 }
 .frm_blog_item_inr:nth-child(n + 4){
     margin-top: 80px;
@@ -147,7 +147,7 @@
     margin-bottom: 60px;
 }
 .post_inr_cnt_sec {
-    margin-bottom: 80px;
+    margin-bottom: 55px;
 
 }
 .blog_post_one{
