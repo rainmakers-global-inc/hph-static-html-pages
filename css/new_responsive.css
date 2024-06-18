@@ -45,10 +45,10 @@
         margin-left: 0;
         max-width: none;
     }
-    .blog_post_one figcaption{
+    /* .blog_post_one figcaption{
         font-size: 25px;
         line-height: 30px;
-    }
+    } */
     .post_inr_cnt_sec p{
         text-align: center;
     }
@@ -97,7 +97,6 @@
         order: 1;
     }
     .post_btn_wrap_new a{
-        font-size: 18px;
         text-align: center;
     }
     .post_inr_cnt_sec {
@@ -120,5 +119,12 @@
     }
     .post_btn_wrap_new{
         margin-top: 0;
+    }
+    .pagination_mob{
+        display: block;
+        width: 100%;
+    }
+    .pagination_desk{
+        display: none;
     }
 }

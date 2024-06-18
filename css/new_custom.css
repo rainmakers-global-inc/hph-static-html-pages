@@ -1,10 +1,10 @@
 .blog_bnr .motivationg_bg_one > img{
-    height: 850px;
+    height: 725px;
 }
 .blog_bnr .motivation_bnr_wrap{
     margin-top: 0;
     position: absolute;
-    top: 120px;
+    top: 90px;
 }
 .blog_bnr .motivation_bnr_wrap p {
     padding-top: 30px;
@@ -117,17 +117,19 @@
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 36.9px 25.67px;
     background-color: #F5F5F5;
-    padding: 30px;
+    padding: 27px 30px;
     margin: 0 auto;
     border-radius: 16px;
+    max-width: 804px;
 }
 .social_post_list_wrap ul li:not(:last-child){
-    margin-right: 20px;
+    margin-right: 24px;
 }
 .social_post_list_wrap h5{
     color: #FF6900;
-    font-size: 32px;
-    margin-right: 60px;
+    font-size: 16px;
+    margin-right: 104px;
+    font-weight: 600;
 }
 .social_post_icon_wrap{
     position: absolute;
@@ -159,18 +161,18 @@
     max-width: 560px;
 }
 .blog_post_one figcaption{
-    font-size: 30px;
+    font-size: 13px;
     color: #FF6900;
     margin: 30px 0;
-    line-height: 40px;
+    line-height: 23px;
     font-style: italic;
     text-align: center;
 }
 .blog_post_two figcaption{
-    font-size: 30px;
+    font-size: 13px;
     color: #FF6900;
     margin: 30px 0;
-    line-height: 40px;
+    line-height: 23px;
     font-style: italic;
     text-align: center;
 }
@@ -184,15 +186,15 @@
     margin-top: 70px;
 }
 .post_btn_wrap_new a{
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 700;
     color: #201457;
 }
 .post_btn_wrap_new a:first-child span{
-    margin-left: 30px
+    margin-left: 18px
 }
 .post_btn_wrap_new a:last-child span{
-    margin-right: 30px;
+    margin-right: 18px;
 }
 .subscribe_frm_wrap_inr {
     background-color: #201457;
@@ -223,7 +225,38 @@
 .social_post_list_wrap_mob{
     display: none;
 }
-
-
-
+.post_bg_wrap > img{
+height: 410px;
+}
+.blog_bnr .motivation_bnr_wrap .motivation_cnt_img_one{
+    margin-top: 0;
+}
+.blog_bnr .motivation_bnr_wrap .col-md-6:nth-child(1){
+    margin-top: 80px;
+}
+.glbl_btn_new_one{
+    min-width: 205px;
+    height: 48px;
+    background: #201457;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 47px;
+    font-weight: 700;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    text-align: center;
+}
+.glbl_btn_new_one:hover{
+    background: #fff;
+    color: #FF6900;
+}
+.post_bg_inr_cnt .glbl_btn_new_one{
+    min-width: 250px;
+}
+.pagination_mob{
+    display: none;
+}
 /* post page end*/
