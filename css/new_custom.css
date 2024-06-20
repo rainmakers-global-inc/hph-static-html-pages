@@ -259,4 +259,7 @@ height: 410px;
 .pagination_mob{
     display: none;
 }
+.social_post_list_wrap ul li a img{
+    max-width: 60px;
+}
 /* post page end*/
