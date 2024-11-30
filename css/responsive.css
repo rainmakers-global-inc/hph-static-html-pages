@@ -1,0 +1,52 @@
+@media (min-width: 992px) {
+    .mega_menu_sec {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: 200ms all ease-in-out;
+    }
+    .menu_wrapper > ul > li .mega_menu_sec {
+      display: block;
+    }
+    .menu_wrapper > ul > li:hover .mega_menu_sec {
+      opacity: 1;
+      visibility: visible;
+      display: block;
+      pointer-events: all;
+    }
+  }
+
+@media (max-width: 1599px) {
+  
+}
+
+@media (max-width: 1399px) {
+   
+}
+
+
+
+@media (max-width: 1199px) {
+    .banner_bg{
+        background-size: 70%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+   
+}
+
+@media (max-width: 991px) {
+   
+}
+
+
+
+@media (max-width: 767px) {}
+
+@media (max-width: 575px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 375px) {}
