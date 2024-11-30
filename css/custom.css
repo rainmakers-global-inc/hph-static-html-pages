@@ -213,10 +213,12 @@ h2 {
 
 h3 {
   font-size: 36px;
+  line-height: 1;
 }
 
 h4 {
   font-size: 20px;
+  line-height: 1;
 }
 
 h5 {
@@ -251,7 +253,7 @@ h6 {
   align-items: center;
 }
 .announce_bar ul li a {
-  margin-left: 20px;
+  margin-left: 5px;
 }
 .announce_bar h6 {
   text-transform: uppercase;
@@ -275,12 +277,12 @@ h6 {
 }
 
 .bannerimg {
-  -o-object-fit: cover;
-     object-fit: cover;
   display: flex;
 }
 .bannerimg img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .banner_contentarea {
@@ -425,10 +427,15 @@ h6 {
 
 .powerhealth_graybox {
   background: #EAE7E8;
-  padding: 40px;
+  padding: 40px 35PX;
   min-height: 392px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   text-align: left;
+  height: 100%;
+}
+
+.powerhealth .container > .primery_button{
+  margin-top: 40px;
 }
 .powerhealth_graybox h3 {
   margin-bottom: 34px;
@@ -505,7 +512,7 @@ h6 {
 }
 .mega_menu_itm_wrp .mga_mnu_itm h6 {
   font-size: 20px;
-  line-height: 1;
+  line-height: 1.2;
   font-weight: 600;
   color: #fff;
   margin-bottom: 25px;
@@ -544,6 +551,12 @@ h6 {
   padding-left: 100px;
   padding-bottom: 0;
 } */
+
+
+
+.mob_logo, .close_nv, .clss_tgl.ovrly, .mbltgl_btn {
+  display: none;
+}
 
 /* header */
 /* footer */
@@ -771,7 +784,7 @@ h6 {
 
 .mapitmwrp .mapcnct ul li{
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .mapitmwrp .mapcnct ul li + li{
@@ -1139,8 +1152,10 @@ h6 {
 /* faq_sec */
 
 
+/* service_page */
+
 .help_sec{
-  padding: 100px 0;
+  padding: var(--section_gap);
 }
 
 .help_sec .img_wrp{
@@ -1164,8 +1179,10 @@ h6 {
 }
 
 
+/* our_services */
+
 .our_services{
-  padding: 100px 0;
+  padding: var(--section_gap);
   background-color: var(--primery_color);
 }
 
@@ -1239,10 +1256,14 @@ h6 {
 }
 
 .srvc_bx .btn_wrp .primery_button a{
-  padding: 6px 14px;
+  padding: 0 14px;
   font-size: var(--font-16);
   min-width: 143px;
   text-align: center;
+  height: 39px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .srvc_bx .btn_wrp .primery_button + .primery_button{
@@ -1261,7 +1282,7 @@ h6 {
 }
 
 .packgde_sec{
-  padding: 70px 0;
+  padding: var(--section_gap);
 }
 
 .packgde_sec .container > h2{
@@ -1427,6 +1448,12 @@ h6 {
   width: 100%;
 }
 
+/* our_services */
+
+/* service_page */
+
+
+/* location_details_page */
 
 .location_dtls_bnnr{
   padding: 70px 0;
@@ -1558,3 +1585,4 @@ h6 {
   width: 100%;
   text-align: center;
 }
+  /* location_details_page */

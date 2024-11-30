@@ -29,6 +29,7 @@
 </head>
 
 <body>
+
     <!-- header -->
     <header class="site_hdr">
         <nav class="header_nabg">
@@ -36,6 +37,7 @@
                 <div class="hdr_logo">
                     <a href="#">
                         <img src="./images/logo.svg" alt="logo">
+                        <img src="./images/mob_logo.svg" alt="logo" class="mob_logo">
                     </a>
                 </div>
                 <div class="menu_wrapper">
@@ -47,11 +49,11 @@
                             </a>
                         </li>
                         <li class="mega_menu_trigger_wrp">
-                            <a href="javascript:void(0)" class="mega_menu_trigger nav_menu_item"
-                                data-bs-toggle="collapse" data-bs-target="#collapse1">
+                            <a href="./services.html" class="mega_menu_trigger nav_menu_item"
+                                >
                                 Services
                             </a>
-                            <div class="mega_menu_sec collapse" id="collapse1">
+                            <div class="mega_menu_sec collapse" >
                                 <div class="container">
                                     <div class="mega_menu_itm_wrp">
                                         <div class="mga_mnu_itm">
@@ -144,19 +146,19 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="mega_menu_trigger_wrp location_itm actve">
-                            <a href="javascript:void(0)" class="mega_menu_trigger nav_menu_item"
-                                data-bs-toggle="collapse" data-bs-target="#collapse1">
+                        <li class="mega_menu_trigger_wrp location_itm">
+                            <a href="./locations.html" class="mega_menu_trigger nav_menu_item"
+                                >
                                 locations
                             </a>
-                            <div class="mega_menu_sec collapse" id="collapse1">
+                            <div class="mega_menu_sec collapse">
                                 <div class="container">
                                     <div class="mega_menu_itm_wrp">
                                         <div class="mga_mnu_itm">
                                             <div class="mga_mnu_itm_innr">
                                                 <ul>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="./location_details_1.html">
                                                             Boston, MA
                                                         </a>
                                                     </li>
@@ -189,17 +191,25 @@
                             </a>
                         </li>
                     </ul>
+                    <button class="clss_tgl close_nv">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
                 </div>
                 <div class="primery_button">
                     <a href="#">Book a visit</a>
+                </div>
+                <div class="mbltgl_btn">
+                    <button class="clss_tgl">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                 </div>
             </div>
         </nav>
         <section class="announce_bar">
             <ul>
                 <li>
-                    <h6> <span>SPECIAL OFFER:</span> CLAIM A $149 DXA SCAN AT OUR WELLESLEY, MA LOCATION</h6>
-                    <a href="#">Learn more</a>
+                    <h6> <span>SPECIAL OFFER:</span> CLAIM A $149 DXA SCAN AT OUR WELLESLEY, MA LOCATION <a href="#">Learn more</a></h6>
+                    
                 </li>
             </ul>
         </section>
@@ -421,7 +431,7 @@
                 </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="powerhealth_graybox">
                     <h3>Our people</h3>
                     <p>Human Powered Health is staffed with Master's and PhD-level performance 
@@ -429,13 +439,13 @@
                         Our product is a healthier you, and we have the science to make you better than ever.</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="powerhealth_graybox">
                     <h3>Our Technology</h3>
                     <p>Human Powered Health uses high-precision, research-grade, top-of-the-line technology for all assessments in order to provide a superior level of service and quality for anyone who wants to learn more about their health and performance metrics.</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="powerhealth_graybox">
                     <h3>Our mission</h3>
                     <p>We are on a mission to power health and human performance for everyone. Your body belongs to you. You deserve accurate information about it. ​We give everyone the data and expertise to fine-tune their own health and athletic performance. Because knowledge is power, and true health is self-made.</p>
@@ -448,14 +458,14 @@
     <!-- Power health End-->
 
     <!-- footer -->
-     <footer class="site_footer">
+    <footer class="site_footer">
         <div class="container">
             <div class="ftr_ttle">
                 <h2>Our Locations</h2>
             </div>
             <div class="callbck_wrp">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-6">
                         <div class="callbck_inr">
                             <h4>
                                 Scottsdale, <span>Arizona</span>
@@ -464,7 +474,7 @@
                             <div class="primery_button"> <a href="#">Book now</a> </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-6">
                         <div class="callbck_inr">
                             <h4>
                                 Boston, <span>Massachusetts</span>
@@ -473,7 +483,7 @@
                             <div class="primery_button"> <a href="#">Book now</a> </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-6">
                         <div class="callbck_inr">
                             <h4>
                                 Wellesley, <span>Massachusetts</span>
@@ -482,7 +492,7 @@
                             <div class="primery_button"> <a href="#">Book now</a> </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-6">
                         <div class="callbck_inr">
                             <h4>
                                 Edina, <span>Minnesota</span>
@@ -591,7 +601,7 @@
                 <p>&copy; 2024 Human Powered Health LLC</p>
             </div>
         </div>
-     </footer>
+    </footer>
     <!-- footer -->
 
     <script src="js/jquery.min.js"></script>
