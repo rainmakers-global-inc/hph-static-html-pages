@@ -279,10 +279,18 @@ h6 {
 .bannerimg {
   display: flex;
 }
+
 .bannerimg img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.bannerimg video{
+  width: 100%;
+  min-height: 700px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .banner_contentarea {
@@ -1473,6 +1481,7 @@ h6 {
 .location_dtls_bnnr_innr h1{
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
 }
 
 .lctn_dtls_inr_sec{
@@ -1556,6 +1565,8 @@ h6 {
   height: 100%;
   padding: 15px;
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
 }
 
 .team_dtl p{
@@ -1576,6 +1587,7 @@ h6 {
 .team_dtl h5.qualy{
   color: #57069B;
   font-weight: var(--medium);
+  min-height: 27px;
 }
 .team_dtl .primery_button{
   padding-top: 35px;

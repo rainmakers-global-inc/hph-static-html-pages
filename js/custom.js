@@ -37,20 +37,37 @@ $(".clss_tgl").click(function () {
                     infinite: true,
                     arrows: true,
                     slidesToShow: 2,
-                    // centerMode:true,
-                    // centerPadding: '90px',
                     speed: 600,
                     autoplaySpeed: 3000,
                     autoplay: true,
                     slidesToScroll: 1,
-                    responsive: [{
+                    responsive: [
+                        {
                         breakpoint: 768,
                         settings: {
                             slidesToShow: 1,
+                        },
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1,
+                            centerMode:true,
+                            centerPadding: '40px',
                         }
                     }]
                 });
             }
         }
     });
+});
+
+
+// fallback: show controls if autoplay fails
+// (needed for Samsung Internet for Android, as of v6.4)
+window.addEventListener('load', async () => {
+let video = document.querySelector('video[muted][autoplay]');
+try {
+await video.play();
+} catch (err) {
+video.controls = true;
+}
 });
