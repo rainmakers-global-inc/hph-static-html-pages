@@ -1,0 +1,21 @@
+.crcl_lst ul li a,
+.strnth_cnct_ttle a{
+    color: inherit;
+    text-decoration: underline !important;
+    font-weight: 500;
+}
+
+.crcl_lst ul li a:hover,
+.strnth_cnct_ttle a:hover{
+    color: #CC1DBC;
+}
+
+
+.page-template-template-new-packages-details .locationbnnr .banner_contentarea h1{
+    padding-right: 0;
+  }
+
+  .page-template-template-new-packages-details .locationbnnr .banner_contentarea h1 span{
+    font-weight: inherit;
+    display: inline-block;
+  }

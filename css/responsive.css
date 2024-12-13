@@ -1,5 +1,3 @@
-
-
 @media (min-width: 992px) {
   .mega_menu_sec {
     opacity: 0;
@@ -20,7 +18,9 @@
   }
 }
 
-@media (max-width: 1599px) {}
+@media (max-width: 1599px) {
+
+}
 
 @media (max-width: 1399px) {
   .banner_contentarea {
@@ -43,9 +43,22 @@
 .locationbnnr .banner_contentarea p {
   max-width: 100%;
 }
+
+
+/* assesment */
+.lcinrwrp .callbck_inr{
+  width: 50%;
+}
+/* 09.12.2024 start  */
+.page-template-template-new-packages-details .locationbnnr .banner_contentarea h1{
+  font-size: 60px;
+  line-height: 1.2;
 }
 
-
+.sprtsdtlbnr .banner_contentarea .banner_cnct_wrp{
+  width: 530px;
+}
+}
 
 @media (max-width: 1199px) {
   /* .banner_bg{
@@ -80,8 +93,8 @@
 /* service_page */
 .help_sec .cnct_wrp {
   padding-top: 0;
-  font-size: 16px;
-  line-height: 26px;
+  /* font-size: 16px; */
+  /* line-height: 26px; */
   max-width: 100%;
 }
 .srvc_bx_wrp ul li{
@@ -93,9 +106,20 @@
 .bannerimg video{
   min-height: auto;
 }
+
+/* modal */
+.our_team_section_modals .abouttabody {
+  padding: 40px 0px 40px;
 }
 
-@media (max-width: 1024px) {}
+.address_section_title{
+  margin-bottom: 20px;
+}
+}
+
+@media (max-width: 1024px) {
+
+}
 
 @media (max-width: 991px) {
   h1{
@@ -384,19 +408,57 @@
 .location_dtls_bnnr_innr {
   padding: 50px 20px;
 }
+
+/* modal */
+.our_team_section_modals .orengborderbox .orengborderboximg{
+  margin-right: 0;
+  margin-bottom: 30px;
+  }
+  .our_team_section_modals .orengborderbox{
+  margin-bottom: 0;
+  padding: 0 0 10px;
+  }
+  .our_team_section_modals .tabimglist .tabimgitem img{
+    height: 100%;
+  }
+  .our_team_section_modals .ourteamsect{
+    padding-bottom: 30px;
+  }
+  .orengborderbox {
+    flex-direction: column;
+    border: 0px;
+  }
+  .tabimglist .tabimgitem{
+    width: 50%;
+  }
+  .our_team_section_modals .modal-content {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+/* 09.12.2024 start  */
+.page-template-template-new-packages-details .locationbnnr .banner_contentarea h1{
+  font-size: 40px;
 }
 
+/* 131224 */
+.run_dtl_bx{
+  padding: 0;
+  margin-top: 20px;
+}
+.marathon_sec .primery_button {
+  margin-top: 30px;
+}
+/* 131224 */
+}
 
 @media (max-width: 767px) {
 
   /* global_set */
   :root {
-    --section_gap: 40px 0;
+    --section_gap: 35px 0;
   }
   body {
     padding-top: 140px;
-    font-size: 16px;
-    line-height: 24px;
   }
 
   h1 {
@@ -409,9 +471,9 @@
     font-size: 40px;
     line-height: 45px;
   }
-
+  .header_nabg .primery_button a,
   .primery_button a {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /* global_set */
@@ -506,15 +568,10 @@
 /* assesment_page */
 
 .lcinrwrp{
-  gap:  0;
-  margin: 0 -5px;
+  margin-top: 0;
+  gap: 20px 0;
 }
-.lcinrwrp .callbck_inr{
-  flex: 0 0 auto;
-  width: 50%;
-  padding-left: 5px;
-  padding-right: 5px;
-}
+
 .strnth_cnct_wrp .strnth_cnct_ttle:not(:first-of-type) {
   margin-top: 30px;
 }
@@ -561,6 +618,57 @@
   padding: 30px 5px 15px;
 }
 
+
+/* 131224 */
+.sprtsdtlbnr .banner_cnct_wrp ul {
+  padding-bottom: 0;
+}
+.fr_tms_dtl_cnct p + p {
+  margin-top: 10px;
+}
+.fr_tms_dtl_cnct .primery_button {
+  margin-top: 20px;
+}
+.fr_tms_dtl_vdowrp {
+  margin-top: 30px;
+}
+.run_dtl_itm{
+  display: block;
+}
+.run_dtl_itm h6 {
+  margin-right: 0;
+}
+.run_dtl_itm + .run_dtl_itm {
+  margin-top: 15px;
+}
+.contact_form_sec h4{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.cnct_frm_wrp {
+  padding: 20px 15px;
+}
+.prvc_ttle {
+  margin-bottom: 40px;
+}
+.prvc_cnct h5 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.prvc_cnct {
+  line-height: 26px;
+}
+.prvc_cnct h2:not(:first-of-type) {
+  margin-top: 20px;
+}
+.prvc_cnct p:has(strong) {
+  margin-bottom: 15px;
+}
+.prvc_cnct h6 {
+  margin-bottom: 15px;
+}
+/* 131224 */
 }
 
 @media (max-width: 575px) {
@@ -568,13 +676,15 @@
   /* global_set */
   body{
     padding-top: 154px;
+    font-size: 14px;
+    line-height: 24px;
   }
   h1 {
     font-size: 40px;
     line-height: 50px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 35px;
 }
 
@@ -597,6 +707,11 @@
   /* banner */
   .banner_contentarea {
     padding: 60px 12px 40px;
+}
+
+
+.movementsection h2 {
+  margin-bottom: 20px;
 }
 
   /* footer */
@@ -630,7 +745,9 @@
     width: 100%;
     padding-top: 30px;
   }
-
+  .ftr_itm_wrp .ftr_itm:first-of-type{
+    padding-top: 10px;
+  }
   .ftr_itminnr h3 {
     margin-bottom: 20px;
   }
@@ -638,10 +755,10 @@
     justify-content: center;
   }
   .ftr_ttle h2 {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 .site_footer {
-  padding: 40px 0 10px;
+  padding: 20px 0 10px;
 }
 .ftr_btm {
   margin-top: 25px;
@@ -656,23 +773,30 @@
     margin-bottom: 0;
     margin-top: -40px;
     margin-right: 0;
-    padding: 40px 20px;
+    padding: 20px;
 }
+.home_service_txtarea {
+  min-height: auto;
+}
+.home_service ul li {
+  margin-bottom: 35px;
+} 
 .home_service ul li:nth-child(even) .home_service_txtbox{
   margin-left: 0;
 }
 .home_testimonial_wrap h3::before {
   margin-left: 0;
   background-size: contain;
-  margin-top: -70px;
-  width: 55px;
-  height: 55px;
+  margin-top: -60px;
+  width: 45px;
+  height: 45px;
 }
 .home_testimonial_wrap h3 {
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 .powerhealth_graybox {
-  padding: 40px 15px 20px;
+  padding: 25px 15px 10px;
 }
 .powerhealth_graybox h3 {
   margin-bottom: 20px;
@@ -684,16 +808,112 @@
 .team_dtl_itm{
   width: 100%;
 }
-
+.team_dtl_wrp .team_dtl_itm:first-of-type{
+  margin-top: 0;
+}
 .mapitmwrp .map {
   min-height: 200px;
 }
 .mapitmwrp .mapcnct h2 span{
   display: inline-block;
 }
+
+.googlereview {
+  margin-bottom: 35px;
 }
 
-@media (max-width: 480px) {}
+.locationbnnr .banner_contentarea {
+  padding: 40px 12px 30px;
+}
+
+.lcdtlicn {
+  width: 25px;
+}
+.lcdtl h5{
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.lcdtl p {
+  font-size: 14px;
+}
+.mapcnct .btn_wrp .primery_button a {
+  padding: 15px 12px;
+  font-size: 14px;
+}
+.mapcnct .btn_wrp {
+  margin-top: 20px;
+}
+.location_dtls_bnnr_innr {
+  padding: 30px 20px;
+}
+
+.lctn_dtls_inr_sec  .cnct_wrp ul li {
+  align-items: baseline;
+}
+.lctn_dtls_inr_sec  .cnct_wrp  .primery_button {
+  margin-top: 20px;
+}
+.lctn_dtls_inr_sec  .cnct_wrp ul li + li {
+  margin-top: 20px;
+}
+.locationbnnr .banner_contentarea .banner_cnct_wrp {
+  padding: 0 0px 12px;
+}
+.locationbnnr .banner_contentarea h1::after {
+  margin-top: -15px;
+}
+.mapitmwrp .mapcnct ul li + li {
+  padding-top: 0;
+}
+
+.powerhealth .headergroup h2{
+  margin-bottom: 0;
+}
+
+
+.strnth_cnct_wrp .imgwrp iframe{
+  height: 250px;
+}
+
+/* address_section_title */
+.address_section_title p{
+  font-size: 25px;
+  line-height: 30px;
+}
+/* 09.12.2024 start  */
+.page-template-template-new-packages-details .locationbnnr .banner_contentarea h1{
+  font-size: 32px;
+}
+
+/* 12-12-24 */
+.ftr_ttle h2{
+  font-size: 25px;
+}
+.powerhealth_graybox p {
+  line-height: 24px;
+}
+.ftr_itminnr ul li + li {
+  margin-top: 15px;
+}
+
+/* 131224 */
+.ysmdl .modal-dialog{
+  padding-left: 0;
+  padding-right: 0;
+}
+.mdlclse{
+  font-size: 25px;
+}
+.ysmdl .modal-body {
+  padding: 40px 10px 20px;
+}
+/* 131224 */
+
+}
+
+@media (max-width: 480px) {
+
+}
 
 @media (max-width: 375px) {}
 
